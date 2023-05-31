@@ -11,7 +11,7 @@
     font-size: 36px;
     margin-bottom: 20px;
     }
-  
+/* navbar section */
 .navbar {
     background-color: white !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -50,6 +50,7 @@
 .navbar.hidden {
     top: -100px; /* Adjust the value to hide the navbar fully */
   }
+/* product-cards section*/
 .project-card {
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -58,8 +59,9 @@
   .card-img-top {
     height: 500px; /* Adjust the height as needed */
     object-fit: fill;
+    display: block;
   }
-
+/* footer */
   .footer {
     background-color: #f8f9fa;
     padding: 20px;
@@ -92,7 +94,7 @@
     margin-right: 5px;
   }
   .footer-logo {
-  
+    object-fit: fill;
     margin-top: -60px;
     margin-right:60px;
     margin-bottom: 50px;
@@ -100,8 +102,9 @@
   
   .footer-logo img {
     width: 500px;
-    max-width: 100%;
+    max-width:100%;
   }
+  /* why uberenergies section */
   .why-uberenergies {
     background-color: #666EA8;
     color: #000000;
@@ -130,8 +133,9 @@
     cursor: pointer;
   }
    .title {
-    
+    max-width: 100%;
     margin-bottom: 90px;
+    word-wrap: break-word;
   }
   .cool-font {
     font-family: 'Exo 2', sans-serif;
@@ -142,6 +146,7 @@
   .cool-font.second-font{
     margin-bottom: 60px;
   }
+  /* our partner section */
   .image-section {
     margin-bottom: 80px; /* Adjust the margin as needed */
     margin-top:90px;
@@ -150,4 +155,5 @@
     height: 260px;
     object-fit: cover;
     width: 100%;
+
   }
