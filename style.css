@@ -40,20 +40,39 @@
     top: -100px; /* Adjust the value to hide the navbar fully */
   }
 /* after navbar block */
-.jumbotron {
-  background-color: #666EA8;
-  color: white;
-  text-align: center;
-  padding: 100px 0;
-}
 
-.jumbotron h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
+  .header {
+    position: relative;
+    height: 400px;
+    background: url('images/technology.png') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 10vw;
+    width: 100%;
+   
   }
+  .header h1 {
+    position: relative;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    color: #fff;
+    font-family: 'Your Cool Font', sans-serif;
+    align-self: flex-start; /* Align the text to the left within the header */
+      white-space: nowrap; /* Prevent line breaks in the text */
+      overflow: hidden; /* Hide the overflow text if it exceeds the header width */
+      text-overflow: ellipsis; /* Show an ellipsis (...) if the text overflows */
+  }
+  
+  
+  
 /* product-cards section*/
 .project-card {
     margin-bottom: 20px;
+    margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
@@ -235,4 +254,35 @@
 .section-text-dodona{
   color:black;
   padding-right:150px;
+}
+
+/* Custom CSS styles */
+.about-section {
+  background-color: #ffffff;
+  padding: 40px 0;
+}
+
+.about-content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+.section-aboutus{
+  background-image: url('images/aboutus.png');
+  background-size: cover;
+  background-position: center;
+  padding: 250px ;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  
 }
