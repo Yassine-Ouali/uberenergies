@@ -229,6 +229,7 @@
 }
 .contact-section{
   padding-bottom: 80px;
+  padding-top: 80px;
 }
 .product-section{
   padding-top: 50px;
@@ -290,4 +291,34 @@
 .reference {
   color: black; /* Set the desired color for the link */
   text-decoration: none; /* Remove the underline */
+}
+.section-news {
+  background-image: url('images/newspage2.png');
+  background-size: cover;
+  background-position: center;
+  padding: 250px ;
+  
+}
+.section-harnyss {
+  background-image: url('images/harnyss.png');
+  background-size: cover;
+  background-position: center;
+  padding: 400px ;
+  
+}
+.visit-button {
+  position: absolute;
+  top: 53%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 920px) { 
+  .visit-button {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin-top: 0;
+    margin-bottom: 20px; /* Add some spacing below the button */
+  }
 }
