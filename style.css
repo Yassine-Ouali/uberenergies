@@ -84,10 +84,11 @@
 
 /* why uberenergies section */
 .why-uberenergies {
-    background-color: #666EA8;
+    background-color: F1BE88;
     color: #000000;
     padding: 50px 0;
     text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   }
   
 .why-uberenergies h2 {
@@ -97,7 +98,7 @@
   
 .why-uberenergies p {
     margin-bottom: 20px;
-    color: white;
+    color:black;
   }
   
 .about-us-button {
@@ -118,7 +119,7 @@
 .cool-font {
     font-family: 'Exo 2', sans-serif;
     letter-spacing: 1px;
-    
+    color:black;
     font-weight: 600;
   }
 .cool-font.second-font{
@@ -322,3 +323,13 @@
     margin-bottom: 20px; /* Add some spacing below the button */
   }
 }
+.section-lanez {
+  background-image: url('images/lanezPhoto.png');
+  background-size: cover;
+  background-position: center;
+  padding: 250px ;
+}
+.lanez-button {
+  margin-top:150px;
+}
+
