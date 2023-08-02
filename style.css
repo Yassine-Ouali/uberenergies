@@ -309,6 +309,12 @@
   background-position: center;
   padding: 250px;
 }
+@media (max-width: 767px) {
+  .section-news {
+    padding: 80px; /* Adjust the padding for smaller screens */
+  }
+}
+
 .section-harnyss {
   background-image: url("images/harnyss.png");
   background-size: cover;
