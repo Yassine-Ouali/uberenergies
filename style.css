@@ -1,204 +1,197 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
 
 /* navbar section */
 .navbar {
-    background-color: white !important;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: top 0.3s;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-  }
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: top 0.3s;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
 
 .navbar-brand img {
-    height: 40px; /* Adjust the height of your logo */
-    margin-right: 10px;
-    
-  }
+  height: 40px; /* Adjust the height of your logo */
+  margin-right: 10px;
+}
 
 .navbar-nav.ml-auto {
-    margin-left: auto;
-  }
+  margin-left: auto;
+}
 
 .navbar-nav.ml-auto .nav-link {
-    padding: 0 60px;
-    font-size: 17px;
-    margin-right:50px;
-    color: black;
-  }
+  padding: 0 60px;
+  font-size: 17px;
+  margin-right: 50px;
+  color: black;
+}
 
 .navbar-nav.ml-auto .nav-link:hover {
-    color: #333;
-  }
+  color: #333;
+}
 .btn-primary {
   background-color: black;
   border-radius: 20px;
-  width:150px;
-  
+  width: 150px;
 }
 .navbar.hidden {
-    top: -100px; /* Adjust the value to hide the navbar fully */
-  }
+  top: -100px; /* Adjust the value to hide the navbar fully */
+}
 /* after navbar block */
 
-  .header {
-    position: relative;
-    height: 400px;
-    background: url('images/technology.png') center/cover no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 0 10vw;
-    width: 100%;
-   
-  }
-  .header h1 {
-    position: relative;
-    font-size: 40px;
-    padding-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 400px;
-    color: #fff;
-    font-family: 'Your Cool Font', sans-serif;
-    align-self: flex-start; /* Align the text to the left within the header */
-      white-space: nowrap; /* Prevent line breaks in the text */
-      overflow: hidden; /* Hide the overflow text if it exceeds the header width */
-      text-overflow: ellipsis; /* Show an ellipsis (...) if the text overflows */
-  }
-  
-  
-  
+.header {
+  position: relative;
+  height: 400px;
+  background: url("images/technology.png") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the items horizontally */
+  justify-content: center; /* Center the items vertically */
+  padding: 50px 10vw; /* Adjust the top and bottom padding for spacing */
+
+  /* Optional: add a min-width to prevent the header from becoming too narrow */
+  min-width: 300px;
+}
+
+.header h1 {
+  position: relative;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #fff;
+  font-family: "Your Cool Font", sans-serif;
+  white-space: nowrap; /* Prevent line breaks in the text */
+  overflow: hidden; /* Hide the overflow text if it exceeds the header width */
+  text-overflow: ellipsis; /* Show an ellipsis (...) if the text overflows */
+}
+
 /* product-cards section*/
 .project-card {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 
 .card-img-top {
-    height: 500px; /* Adjust the height as needed */
-    object-fit: fill;
-    display: block;
-  }
+  height: 500px; /* Adjust the height as needed */
+  object-fit: fill;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* why uberenergies section */
 .why-uberenergies {
-    background-color: F1BE88;
-    color: #000000;
-    padding: 50px 0;
-    text-align: center;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  }
-  
-.why-uberenergies h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-.why-uberenergies p {
-    margin-bottom: 20px;
-    color:black;
-  }
-  
-.about-us-button {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-.title {
-    max-width: 100%;
-    margin-bottom: 90px;
-    word-wrap:break-word;
-  }
-.cool-font {
-    font-family: 'Exo 2', sans-serif;
-    letter-spacing: 1px;
-    color:black;
-    font-weight: 600;
-  }
-.cool-font.second-font{
-    margin-bottom: 60px;
-  }
-  /* our partner section */
-.image-section {
-    margin-bottom: 80px; /* Adjust the margin as needed */
-    margin-top:90px;
-  }
-.image-section img {
-    height: 260px;
-    object-fit: cover;
-    width: 100%;
-
-  }
-  /* footer */
-.footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-    color: #495057;
-  }
-.footer {
-    background-color: #ffffff;
-    border-top: 1px  #000000;
-    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.3);
-    color: #000000;
-    padding: 90px 0;
-    
-  }
-  
-.footer-column {
-    margin-bottom: 20px;
-  }
-  
-.footer h4 {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-.footer p {
-    margin-bottom: 5px;
-  }
-  
-.footer i {
-    margin-right: 5px;
-  }
-.footer-logo {
-    object-fit: fill;
-    margin-top: -60px;
-    margin-right:60px;
-    margin-bottom: 50px;
-  }
-  
-.footer-logo img {
-    width: 500px;
-    max-width:100%;
-  }
-/* product image */
-.container-product{
-  display:flex;
+  background-color: F1BE88;
+  color: #000000;
+  padding: 50px 0;
+  text-align: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
-.product-image{
-  flex:1;
-  background-image:url('images/uairtek.JPG');
+
+.why-uberenergies h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.why-uberenergies p {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.about-us-button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.title {
+  max-width: 100%;
+  margin-bottom: 90px;
+  word-wrap: break-word;
+}
+.cool-font {
+  font-family: "Exo 2", sans-serif;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: 600;
+}
+.cool-font.second-font {
+  margin-bottom: 60px;
+}
+/* our partner section */
+.image-section {
+  margin-bottom: 80px; /* Adjust the margin as needed */
+  margin-top: 90px;
+}
+.image-section img {
+  height: 260px;
+  object-fit: cover;
+  width: 100%;
+}
+/* footer */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  color: #495057;
+}
+.footer {
+  background-color: #ffffff;
+  border-top: 1px #000000;
+  box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.3);
+  color: #000000;
+  padding: 90px 0;
+}
+
+.footer-column {
+  margin-bottom: 20px;
+}
+
+.footer h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin-bottom: 5px;
+}
+
+.footer i {
+  margin-right: 5px;
+}
+.footer-logo {
+  object-fit: fill;
+  margin-top: -60px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+}
+
+.footer-logo img {
+  width: 500px;
+  max-width: 100%;
+}
+/* product image */
+.container-product {
+  display: flex;
+}
+.product-image {
+  flex: 1;
+  background-image: url("images/uairtek.JPG");
   height: 600px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
-  
 }
 /* UAT webpage */
 .section-UAT {
-  background-image: url('images/UAT-webpage.png');
+  background-image: url("images/UAT-webpage.png");
   background-size: cover;
   background-position: center;
-  padding: 250px ;
-  
+  padding: 250px;
 }
 .btn-custom {
   background-color: rgb(255, 255, 255);
@@ -228,34 +221,32 @@
   opacity: 1;
   transform: translateY(0);
 }
-.contact-section{
+.contact-section {
   padding-bottom: 80px;
   padding-top: 80px;
 }
-.product-section{
+.product-section {
   padding-top: 50px;
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
 /* mitrex webpage */
 .section-mitrex {
-  background-image: url('images/mitrex-webpage.png');
+  background-image: url("images/mitrex-webpage.png");
   background-size: cover;
   background-position: center;
-  padding: 250px ;
-  
+  padding: 250px;
 }
 /* dodona webpage */
-.section-dadona{
-  background-image: url('images/dodona-webpage.png');
+.section-dadona {
+  background-image: url("images/dodona-webpage.png");
   background-size: cover;
   background-position: center;
-  padding: 250px ;
+  padding: 250px;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
-  
 }
-.section-text-dodona{
-  color:black;
-  padding-right:150px;
+.section-text-dodona {
+  color: black;
+  padding-right: 150px;
 }
 
 /* Custom CSS styles */
@@ -280,13 +271,12 @@
   color: #666;
   line-height: 1.6;
 }
-.section-aboutus{
-  background-image: url('images/aboutus.png');
+.section-aboutus {
+  background-image: url("images/aboutus.png");
   background-size: cover;
   background-position: center;
-  padding: 250px ;
+  padding: 250px;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
-  
 }
 
 .reference {
@@ -294,26 +284,29 @@
   text-decoration: none; /* Remove the underline */
 }
 .section-news {
-  background-image: url('images/newspage2.png');
+  background-image: url("images/newspage2.png");
   background-size: cover;
   background-position: center;
-  padding: 250px ;
-  
+  padding: 250px;
 }
 .section-harnyss {
-  background-image: url('images/harnyss.png');
+  background-image: url("images/harnyss.png");
   background-size: cover;
   background-position: center;
-  padding: 400px ;
-  
+  padding: 400px;
+}
+@media (max-width: 767px) {
+  .section-harnyss {
+    padding: 150px; /* Adjust the padding for smaller screens */
+  }
 }
 .visit-button {
   position: absolute;
-  top: 53%;
-  left: 63%;
+  top: 34%;
+  left: 30%;
   transform: translate(-50%, -50%);
 }
-@media (max-width: 920px) { 
+@media (max-width: 920px) {
   .visit-button {
     position: relative;
     top: auto;
@@ -324,12 +317,11 @@
   }
 }
 .section-lanez {
-  background-image: url('images/lanezPhoto.png');
+  background-image: url("images/lanezPhoto.png");
   background-size: cover;
   background-position: center;
-  padding: 250px ;
+  padding: 250px;
 }
 .lanez-button {
-  margin-top:150px;
+  margin-top: 150px;
 }
-
