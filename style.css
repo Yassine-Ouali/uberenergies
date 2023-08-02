@@ -193,6 +193,14 @@
   background-position: center;
   padding: 250px;
 }
+@media (max-width: 767px) {
+  .section-UAT {
+    padding: 150px; /* Adjust the padding for smaller screens */
+  }
+  .section-UAT .btn-move-down {
+    margin-top: 100px; /* Move the button down by adjusting the margin-top */
+  }
+}
 .btn-custom {
   background-color: rgb(255, 255, 255);
   color: black;
@@ -236,6 +244,12 @@
   background-position: center;
   padding: 250px;
 }
+@media (max-width: 767px) {
+  .section-mitrex {
+    padding: 50px; /* Adjust the padding for smaller screens */
+  }
+  
+}
 /* dodona webpage */
 .section-dadona {
   background-image: url("images/dodona-webpage.png");
@@ -243,6 +257,12 @@
   background-position: center;
   padding: 250px;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 767px) {
+  .section-dadona {
+    padding: 50px; /* Adjust the padding for smaller screens */
+  }
+  
 }
 .section-text-dodona {
   color: black;
@@ -297,7 +317,10 @@
 }
 @media (max-width: 767px) {
   .section-harnyss {
-    padding: 150px; /* Adjust the padding for smaller screens */
+    padding: 80px; /* Adjust the padding for smaller screens */
+  }
+  .section-harnyss .btn-move-down {
+    margin-top: 90px ; /* Move the button down by adjusting the margin-top */
   }
 }
 .visit-button {
@@ -321,6 +344,12 @@
   background-size: cover;
   background-position: center;
   padding: 250px;
+}
+@media (max-width: 767px) {
+  .section-lanez {
+    padding: 2px; /* Adjust the padding for smaller screens */
+  }
+  
 }
 .lanez-button {
   margin-top: 150px;
